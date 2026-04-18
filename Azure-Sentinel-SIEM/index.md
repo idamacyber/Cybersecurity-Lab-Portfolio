@@ -100,4 +100,4 @@ All screenshots and explanations for this project are documented here:
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1Tu700oaqtEwhLhNY-c4kyfmKmd3Na4aknultw_nIO7A/edit?usp=sharing)
 
 ## Summary 
-This project demonstrates the deployment and configuration of a cloud-base SIEM solution using Microsoft Semtinel in Microsoft Azure.
+This project demonstrates the deployment and configuration of a cloud-base SIEM solution using Microsoft Sentinel in Microsoft Azure.
