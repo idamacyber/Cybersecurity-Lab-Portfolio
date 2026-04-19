@@ -13,14 +13,6 @@ It focuses on understanding how modern AI systems—especially Large Language Mo
 * 📊 AI Models & Data
 * 🎟️ AI Security Path Ticketing Event
 
-Each room is documented in its own folder with:
-
-* Key concepts
-* Task answers
-* Screenshots (proof of completion)
-* Real-world security insights
-
----
 
 ## 🎯 Skills & Knowledge Gained
 
