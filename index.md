@@ -14,7 +14,10 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 
 ### ✅ TryHackMe Blue Team Labs
  🔗[View TryHackMe Portfolio](./TryHackMe-Blue-Team-Labs/)
-
+ 
+### ✅ TryHackMe AI Security Labs
+ 🔗[View TryHackMe AI Security Lab](./TryHackme-AI-Security/)
+ 
 ### ✅ Race Condition Exploitation 
 🔗 [View Project](./Race-Condition-Exploitation/)
 
