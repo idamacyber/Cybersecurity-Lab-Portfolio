@@ -8,10 +8,11 @@ It focuses on understanding how modern AI systems—especially Large Language Mo
 
 ## 📚 Covered Rooms
 
+* 🎟️ AI Security Path Ticketing Event
 * 🤖 AI/ML Security Threats
 * 🧾 Prompt Engineering
 * 📊 AI Models & Data
-* 🎟️ AI Security Path Ticketing Event
+  
 
 
 ## 🎯 Skills & Knowledge Gained
