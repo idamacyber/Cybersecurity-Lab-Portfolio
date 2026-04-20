@@ -12,6 +12,7 @@ It focuses on understanding how modern AI systems—especially Large Language Mo
 * 🤖 AI/ML Security Threats
 * 🧾 Prompt Engineering
 * 📊 AI Models & Data
+* 📊 AI Forensics
   
 
 
