@@ -56,6 +56,6 @@ Attackers often use built-in Windows tools (Living off the Land)
 Command-line logging is critical for detection
 EDR visibility helps identify early attack stages
 
-📸 Evidence
+All screenshots and explanations for this project are documented here:
 
-(Add your screenshots here)
+🔗 [Google Slides ](https://docs.google.com/presentation/d/1LtvSIGcDIstJYMbNJRFoO9rQfWfAeFg_l_9pfWqmNEI/edit?usp=sharing)
