@@ -12,6 +12,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ Azure Sentinel SIEM Lab
 🔗[View Project](./Azure-Sentinel-SIEM/)
 
+### ✅ Phishing-Email-Analysis
+🔗[View Project](./Phishing-Email-Analysis/)
+
 ### ✅ EDR Investigation Lab
 🔗[View Project](./EDR-Investigation/)
 
