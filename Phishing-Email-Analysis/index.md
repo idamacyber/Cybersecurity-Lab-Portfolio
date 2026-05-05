@@ -60,10 +60,9 @@ This was a confirmed phishing attack containing malicious infrastructure. The em
 - SOC Playbook Execution
 
 ---
-
 All screenshots and explanations for this project are documented here:
 
-[Google Slides ](https:/https://docs.google.com/presentation/d/1BySPfyanX09Gg6k2cg3_04NkEL7L4vCUM8ozd9aG_r4/edit?usp=sharing/)
+🔗 [Google Slides ](https://docs.google.com/presentation/d/1BySPfyanX09Gg6k2cg3_04NkEL7L4vCUM8ozd9aG_r4/edit?usp=sharing)
 
 ---
 
