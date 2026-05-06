@@ -15,6 +15,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ Phishing-Email-Analysis
 🔗[View Project](./Phishing-Email-Analysis/)
 
+### ✅ Brute Force Attack Investigation
+🔗[View Project](./Brute-Force-Attack-Investigation/)
+
 ### ✅ EDR Investigation Lab
 🔗[View Project](./EDR-Investigation/)
 
