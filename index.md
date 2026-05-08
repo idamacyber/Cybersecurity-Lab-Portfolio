@@ -21,6 +21,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ EDR Investigation Lab
 🔗[View Project](./EDR-Investigation/)
 
+### ✅ Windows Event Monitoring with Splunk SIEM
+🔗[View Project](./Windows-Event-Monitoring-with-Splunk-SIEM/)
+
 ### ✅ TryHackMe Blue Team Labs
  🔗[View TryHackMe Portfolio](./TryHackMe-Blue-Team-Labs/)
  
