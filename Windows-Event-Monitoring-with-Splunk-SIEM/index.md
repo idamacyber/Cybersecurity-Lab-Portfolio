@@ -14,16 +14,13 @@ The following tasks were completed during deployment:
 
 Windows Event Logs were configured using:
 
-```text
 Settings → Add Data → Monitor → Local Event Logs
 
 # 📊 Log Ingestion Verification
 
 After configuring the data source, log ingestion was verified using the following SPL query:
 
-```spl
 index=windows
-```
 
 This confirmed that Windows logs were successfully indexed and searchable within Splunk.
 
@@ -35,7 +32,6 @@ The ingested telemetry included:
 - Host information
 - Event timestamps
 
----
 
 # 🚨 Detection Engineering & Security Monitoring
 
@@ -43,9 +39,8 @@ Several SPL queries were created to identify potentially suspicious authenticati
 
 ## ❌ Failed Login Detection
 
-```spl
 index=windows EventCode=4625
-```
+
 
 ### Purpose
 
@@ -60,9 +55,7 @@ Detects failed authentication attempts that may indicate:
 
 ## ✅ Successful Login Detection
 
-```spl
 index=windows EventCode=4624
-```
 
 ### Purpose
 
@@ -73,13 +66,10 @@ Identifies successful user logins and helps analysts:
 - Investigate suspicious login patterns
 - Correlate successful access after failed attempts
 
----
 
 ## 🔒 Account Lockout Detection
 
-```spl
 index=windows EventCode=4740
-```
 
 ### Purpose
 
@@ -89,13 +79,10 @@ Detects locked user accounts that may indicate:
 - Repeated invalid login attempts
 - Misconfigured services using outdated credentials
 
----
 
 ## 👤 New User Account Creation
 
-```spl
 index=windows EventCode=4720
-```
 
 ### Purpose
 
