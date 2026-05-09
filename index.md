@@ -9,6 +9,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 
 # 🔥 Featured Projects
 
+### ✅Active Directory Basics Lab
+🔗[View Project](./Active-Directory-Basics-Lab/)
+
 ### ✅ Azure Sentinel SIEM Lab
 🔗[View Project](./Azure-Sentinel-SIEM/)
 
