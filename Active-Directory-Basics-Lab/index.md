@@ -64,7 +64,6 @@ The knowledge gained from this lab is valuable for:
 - Windows Security Monitoring
 - Threat Detection
 - Incident Response
-- Penetration Testing
 - Blue Team Operations
 
 All screenshots and explanations for this module are documented here:
