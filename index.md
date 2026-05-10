@@ -5,12 +5,14 @@ Aspiring SOC Analyst | Blue Team |Vulnerability Assessment
 
 Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel, vulnerability assessment, web application testing, and network traffic analysis.
 
----
 
 # 🔥 Featured Projects
 
 ### ✅Active Directory Basics Lab
 🔗[View Project](./Active-Directory-Basics-Lab/)
+
+### ✅SOC Ticketing & Incident Response Workflow
+🔗[View Project](./SOC-Ticketing-&-Incident-Response-Workflow/)
 
 ### ✅ Azure Sentinel SIEM Lab
 🔗[View Project](./Azure-Sentinel-SIEM/)
