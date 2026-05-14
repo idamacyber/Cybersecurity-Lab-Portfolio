@@ -93,9 +93,51 @@ Incident investigation
 
 Threat monitoring in cloud environments
 
-### 📊 Evidence & Documentation
+### 📊 Evidence 
 
-All screenshots and explanations for this project are documented here:
+<h1 align="center">Azure Resource Group Creation</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">Log Analytics Workspace</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">Microsoft Sentinel Content Hub</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Azre Policy Assignment</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h1 align="center">Configured And Accessed The SOC-LAW Log Analytics Workspace</h1>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h1 align="center">Microsoft Sentinel Analytics Rule</h1>
+
+<p align="center">
+    <img src="image6.png">
+</p>
+
+<h1 align="center">Incident Detection And Investigation</h1>
+
+<p align="center">
+    <img src="image7.png">
+</p>
+
+All screenshots are here:
 
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1Tu700oaqtEwhLhNY-c4kyfmKmd3Na4aknultw_nIO7A/edit?usp=sharing)
 
