@@ -158,13 +158,13 @@ This project follows a real-world SOC investigation lifecycle:
 <h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact</h1>
 
 <p align="center">
-    <img src="image3.png">
+    <img src="image4.png">
 </p>
 
 <h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact (VirusTotal)</h1>
 
 <p align="center">
-    <img src="image4.png">
+    <img src="image3.png">
 </p>
 
 <h1 align="center">Documented lessons learned and preventive recommendations after the incident response process</h1>
