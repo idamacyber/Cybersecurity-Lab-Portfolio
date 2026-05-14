@@ -68,31 +68,31 @@ The knowledge gained from this lab is valuable for:
 - 
 ### 📊 Evidence 
 
-<h1 align="center">Active Directory Configuration</h1>
+<h3 align="center">Active Directory Configuration</h3>
 
 <p align="center">
     <img src="images.png">
 </p>
 
-<h1 align="center">Configured User Accounts And Security Groups</h1>
+<h3 align="center">Configured User Accounts And Security Groups</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">Password Policy Configuration</h1>
+<h3 align="center">Password Policy Configuration</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">Group Policy Configuration</h1>
+<h3 align="center">Group Policy Configuration</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h1 align="center">Active Directory Admimistrative Center</h1>
+<h3 align="center">Active Directory Admimistrative Center</h3>
 
 <p align="center">
     <img src="image4.png">
