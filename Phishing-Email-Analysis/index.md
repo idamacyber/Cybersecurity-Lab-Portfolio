@@ -61,37 +61,37 @@ This was a confirmed phishing attack containing malicious infrastructure. The em
 
 ### 📊 Evidence 
 
-<h1 align="center">Phishing Alert Detection</h1>
+<h3 align="center">Phishing Alert Detection</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">Email Parsing and Initial Analysis</h1>
+<h3 align="center">Email Parsing and Initial Analysis</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">URL/Attachment Analysis</h1>
+<h3 align="center">URL/Attachment Analysis</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h1 align="center">Containment Action</h1>
+<h3 align="center">Containment Action</h3>
 
 <p align="center">
     <img src="image4.png">
 </p>
 
-<h1 align="center">Artifact Collection and IOC Documentation</h1>
+<h3 align="center">Artifact Collection and IOC Documentation</h3>
 
 <p align="center">
     <img src="image5.png">
 </p>
 
-<h1 align="center">Incident Closure and Documentation</h1>
+<h3 align="center">Incident Closure and Documentation</h3>
 
 <p align="center">
     <img src="image6.png">
