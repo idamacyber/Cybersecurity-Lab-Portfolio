@@ -1,6 +1,6 @@
-📌 Cloud-Based SIEM Implementation Using Microsoft Sentinel
+## 📌 Cloud-Based SIEM Implementation Using Microsoft Sentinel
 
-🔎 Project Overview
+##🔎 Project Overview
 
 This project demonstrates the deployment and configuration of a cloud-based Security Information and Event Management (SIEM) solution using Microsoft Sentinel in Microsoft Azure.
 
@@ -16,6 +16,7 @@ Simulate suspicious activity
 
 Generate and investigate security incidents
 
+
 🏗️ Environment Setup
 
 Microsoft Azure subscription
@@ -28,7 +29,8 @@ Microsoft Sentinel enabled
 
 Azure Activity logs connected
 
-📊 Log Ingestion Verification
+
+## 📊 Log Ingestion Verification
 
 Used KQL query to confirm log collection:
 
@@ -37,7 +39,8 @@ AzureActivity
 
 Verified that Azure Activity logs were successfully ingested into the Log Analytics Workspace.
 
-🚨 Detection Engineering
+
+## 🚨 Detection Engineering
 
 Created a scheduled analytics rule:
 
@@ -51,15 +54,17 @@ Severity: Medium
 
 MITRE ATT&CK mapping applied
 
-🧪 Simulated Suspicious Activity
+## 🧪 Simulated Suspicious Activity
 
 Created a new Azure Resource Group to simulate administrative activity and trigger detection.
 
-🔔 Incident Generation
+
+## 🔔 Incident Generation
 
 The analytics rule successfully generated an incident in Microsoft Sentinel.
 
-🔍 Incident Investigation
+
+## 🔍 Incident Investigation
 
 Reviewed:
 
@@ -73,7 +78,8 @@ Incident status
 
 Demonstrated end-to-end detection and investigation workflow.
 
-🛠️ Tools & Technologies
+
+## 🛠️ Tools & Technologies
 
 Microsoft Azure
 
@@ -81,7 +87,8 @@ Microsoft Sentinel
 
 Kusto Query Language (KQL)
 
-🎯 Key Skills Demonstrated
+
+## 🎯 Key Skills Demonstrated
 
 Cloud SIEM deployment
 
