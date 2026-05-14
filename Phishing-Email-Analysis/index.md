@@ -59,17 +59,47 @@ This was a confirmed phishing attack containing malicious infrastructure. The em
 - Log Analysis
 - SOC Playbook Execution
 
----
+### 📊 Evidence 
+
+<h1 align="center">Phishing Alert Detection</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">Email Parsing and Initial Analysis</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center"URL/Attachment Analysis</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Containment Action</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h1 align="center">Artifact Collection and IOC Documentation</h1>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h1 align="center">Incident Closure and Documentation</h1>
+
+<p align="center">
+    <img src="image6.png">
+</p>
 All screenshots and explanations for this project are documented here:
 
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1BySPfyanX09Gg6k2cg3_04NkEL7L4vCUM8ozd9aG_r4/edit?usp=sharing)
 
----
-
-## 📚 Platform
-- LetsDefend (Blue Team Training Platform)
-
----
 
 ## 💡 Key Takeaway
 Early detection and quick response prevented potential compromise.
