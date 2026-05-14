@@ -97,7 +97,7 @@ The knowledge gained from this lab is valuable for:
 </p>
 
 
-All screenshots and explanations for this module are documented here:
+All screenshots are here:
 
 🔗 [Google Slides](https://docs.google.com/presentation/d/1BNS81NCNovSplIKuFzUSsh9rm93Uns510YfOLbmdMgQ/edit?slide=id.p#slide=id.p)
 
