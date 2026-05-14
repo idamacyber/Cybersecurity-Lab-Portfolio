@@ -34,6 +34,24 @@ Active defense is used in Security Operations Centers (SOC) to monitor systems c
     <img src="image1.png">
 </p>
 
+<h1 align="center">Password Policy Configuration</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">Group Policy Configuration</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Active Directory Admimistrative Center</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
 All screenshots and explanations for this module are documented here:
 
 🔗 [Google Slides – Module X](https://docs.google.com/presentation/d/1BNS81NCNovSplIKuFzUSsh9rm93Uns510YfOLbmdMgQ/edit?slide=id.p#slide=id.p)
