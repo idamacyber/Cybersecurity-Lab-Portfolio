@@ -31,7 +31,7 @@ Active defense is used in Security Operations Centers (SOC) to monitor systems c
 <h1 align="center">Configured User Accounts And Security Groups</h1>
 
 <p align="center">
-    <img src="images1.png">
+    <img src="image1.png">
 </p>
 
 All screenshots and explanations for this module are documented here:
