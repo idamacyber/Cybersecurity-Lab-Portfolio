@@ -11,8 +11,6 @@ The objective was to determine:
 * If the attack was successful
 * What response actions were required
 
----
-
 ## 🚨 Alert Details
 
 | Field       | Value                                           |
@@ -22,7 +20,6 @@ The objective was to determine:
 | Event ID    | 162                                             |
 | Target User | [mane@letsdefend.io](mailto:mane@letsdefend.io) |
 
----
 
 ## 🌐 Indicators of Compromise (IOCs)
 
@@ -30,7 +27,6 @@ The objective was to determine:
 | ---------- | ------------- | ----------------------------------------------------------------------------------------- |
 | IP Address | 37.19.221.229 | External IP associated with multiple failed login attempts followed by a successful login |
 
----
 
 ## 🔍 Investigation Methodology
 
@@ -42,7 +38,6 @@ The objective was to determine:
 
 📌 **Implication:** Activity originated outside the organization
 
----
 
 ### 2. Threat Intelligence Analysis
 
@@ -59,7 +54,6 @@ The objective was to determine:
 * Newly registered IPs
 * Compromised systems
 
----
 
 ### 3. Log Analysis
 
@@ -72,11 +66,7 @@ Authentication logs revealed:
 
 📌 Pattern observed:
 
-```
 Failed → Failed → Failed → SUCCESS
-```
-
----
 
 ### 4. Attack Validation
 
@@ -89,7 +79,6 @@ Based on behavioral evidence:
 ✅ **Conclusion:**
 This confirms a **successful brute force attack**
 
----
 
 ## 🚨 Incident Impact
 
@@ -99,8 +88,6 @@ This confirms a **successful brute force attack**
   * Data exfiltration
   * Privilege escalation
   * Lateral movement
-
----
 
 ## 🛡️ Response & Containment
 
@@ -119,7 +106,6 @@ This confirms a **successful brute force attack**
 
 > Remove attacker access while preserving legitimate user access
 
----
 
 ## 📊 Final Verdict
 
@@ -129,7 +115,6 @@ This confirms a **successful brute force attack**
 | Attack Type    | Brute Force           |
 | Outcome        | Successful Compromise |
 
----
 
 ## 🧠 Key Takeaways
 
@@ -138,7 +123,6 @@ This confirms a **successful brute force attack**
 * Clean IP reputation does not guarantee benign activity
 * Immediate containment is critical after confirmed compromise
 
----
 
 ## 🧩 SOC Workflow Demonstrated
 
@@ -151,7 +135,6 @@ This project follows a real-world SOC investigation lifecycle:
 5. Containment & Response
 6. Documentation
 
----
 
 ## 🧪 Tools Used
 
