@@ -47,10 +47,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ Vulnerability Assessment Nmap
 🔗[View Project](./Vulnerability-Assessment-Nmap/)
 
-### ✅ Security Capstone Project
-🔗[View Project](./Security-Capstone-Project/)
+### ✅ OWASP-ZAP-Vulnerability-Assessment-Project
+🔗[View Project](./OWASP-ZAP-Vulnerability-Assessment-Project/)
 
----
 
 # 🛠 Technical Skills
 
@@ -124,6 +123,9 @@ Detailed module summaries and practical evidence:
 
 ### ✅ Cryptography Secure Implementation 
 🔗 [View Project](./Cryptography-Secure-Implementation/)
+
+### ✅ Security Capstone Project
+🔗[View Project](./Security-Capstone-Project/)
 
 # 🎯 Career Objective
 
