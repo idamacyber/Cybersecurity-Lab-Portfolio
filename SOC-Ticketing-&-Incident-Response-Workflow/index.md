@@ -60,37 +60,37 @@ Assigned incidents to the analyst account to simulate SOC ownership and case tra
 
 ### 📊 Evidence 
 
-<h1 align="center">Initial setup and overview page of the Jira Service Management environment configured for cybersecurity operations</h1>
+<h3 align="center">Initial setup and overview page of the Jira Service Management environment configured for cybersecurity operations</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">Incident management queue displaying categorized cybersecurity tickets such as phishing incidents, malware alerts, suspicious logins, and endpoint alerts</h1>
+<h3 align="center">Incident management queue displaying categorized cybersecurity tickets such as phishing incidents, malware alerts, suspicious logins, and endpoint alerts</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">Creation of a new cybersecurity service request within Jira Service Management.</h1>
+<h3 align="center">Creation of a new cybersecurity service request within Jira Service Management.</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h1 align="center">Work item dashboard displaying created phishing investigation tickets and their assigned statuses.</h1>
+<h3 align="center">Work item dashboard displaying created phishing investigation tickets and their assigned statuses.</h3>
 
 <p align="center">
     <img src="image4.png">
 </p>
 
-<h1 align="center">Incident handling and response documentation within Jira</h1>
+<h3 align="center">Incident handling and response documentation within Jira</h3>
 
 <p align="center">
     <img src="image5.png">
 </p>
 
-<h1 align="center">Detailed view of a resolved phishing investigation ticket involving a fake Microsoft login page.</h1>
+<h3 align="center">Detailed view of a resolved phishing investigation ticket involving a fake Microsoft login page.</h3>
 
 <p align="center">
     <img src="image6.png">
