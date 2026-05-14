@@ -109,9 +109,46 @@ This project demonstrated how SIEM platforms provide visibility into endpoint ac
 - SOC monitoring workflow
 
 
-### 📊 Evidence & Documentation
+### 📊 Evidence 
 
-All screenshots and explanations for this project are documented here:
+<h3 align="center">This image shows the creation of administrative credentials during the Splunk Enterprise installation process</h3>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h3 align="center">A view of the Splunk Enterprise home dashboard upon initial login.</h3>
+
+<p align="center">
+    <img src="image2.svg">
+</p>
+
+<h3 align="center">This screenshot captures the setup of the Splunk Universal Forwarder, a critical component for sending data from remote endpoints to the central indexer</h3>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h3 align="center">This view outlines the primary methods for ingesting data into the Splunk platform.</h3>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h3 align="center">This image illustrates the selection of specific log sources for monitoring on a local Windows machine.</h3>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h3 align="center">A demonstration of running a search query within Splunk to analyze ingested Windows logs</h3>
+
+<p align="center">
+    <img src="image6.png">
+</p>
+
+
+All screenshots are here:
 
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1dA2qaCVj_mEvSgb1v2BjULstgeQHIxDoC130sKnJhPk/edit?usp=sharing)
 
