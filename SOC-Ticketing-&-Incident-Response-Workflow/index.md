@@ -58,8 +58,46 @@ Each ticket included:
 
 Assigned incidents to the analyst account to simulate SOC ownership and case tracking
 
-All screenshots and explanations for this module are documented here:
+### 📊 Evidence 
 
+<h1 align="center">Initial setup and overview page of the Jira Service Management environment configured for cybersecurity operations</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">Incident management queue displaying categorized cybersecurity tickets such as phishing incidents, malware alerts, suspicious logins, and endpoint alerts</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">Creation of a new cybersecurity service request within Jira Service Management.</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Work item dashboard displaying created phishing investigation tickets and their assigned statuses.</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h1 align="center">Incident handling and response documentation within Jira</h1>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h1 align="center">Detailed view of a resolved phishing investigation ticket involving a fake Microsoft login page.</h1>
+
+<p align="center">
+    <img src="image6.png">
+</p>
+  
+All screenshots are here:
+  
 🔗 [Google Slides](https://docs.google.com/presentation/d/1iLdu9Wiu2B6b8vw7YxpWC0b1x7-gqw7xWxaOKXc3y9w/edit?usp=sharing)
 
 ## 🏁 Conclusion
