@@ -25,7 +25,7 @@ Active defense is used in Security Operations Centers (SOC) to monitor systems c
 <h1 align="center">Active Directory Configuration</h1>
 
 <p align="center">
-    <img src="images.png" width="500">
+    <img src="images.png">
 </p>
 
 All screenshots and explanations for this module are documented here:
