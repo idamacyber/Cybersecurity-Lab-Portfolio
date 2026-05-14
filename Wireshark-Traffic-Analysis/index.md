@@ -40,19 +40,19 @@ Demonstrated DNS failure analysis capability
 
 ### 📊 Evidence 
 
-<h1 align="center">This image captures a live packet stream in Wireshark, highlighting the transition between different transport and application layer protocols</h1>
+<h3 align="center">This image captures a live packet stream in Wireshark, highlighting the transition between different transport and application layer protocols</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">DNS Query and Response Mapping</h1>
+<h3 align="center">DNS Query and Response Mapping</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">This image demonstrates the use of advanced Wireshark display filters to identify network anomalies or resolution failures.</h1>
+<h3 align="center">This image demonstrates the use of advanced Wireshark display filters to identify network anomalies or resolution failures.</h3>
 
 <p align="center">
     <img src="image3.png">
