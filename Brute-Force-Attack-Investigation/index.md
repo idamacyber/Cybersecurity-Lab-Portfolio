@@ -143,37 +143,37 @@ This project follows a real-world SOC investigation lifecycle:
 
 ### 📊 Evidence 
 
-<h1 align="center">Reviewed and investigated a high-severity VPN brute-force alert in the SOC monitoring dashboard</h1>
+<h3 align="center">Reviewed and investigated a high-severity VPN brute-force alert in the SOC monitoring dashboard</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">Analyzed incident details and initiated the incident response playbook for a detected brute-force attack</h1>
+<h3 align="center">Analyzed incident details and initiated the incident response playbook for a detected brute-force attack</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact</h1>
+<h3 align="center">Performed containment procedures to isolate affected systems and reduce attack impact</h3>
 
 <p align="center">
     <img src="image4.png">
 </p>
 
-<h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact (VirusTotal)</h1>
+<h3 align="center">Performed containment procedures to isolate affected systems and reduce attack impact (VirusTotal)</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h1 align="center">Documented lessons learned and preventive recommendations after the incident response process</h1>
+<h3 align="center">Documented lessons learned and preventive recommendations after the incident response process</h3>
 
 <p align="center">
     <img src="image5.png">
 </p>
 
-<h1 align="center">Completed incident response documentation and remediation review within the SOC case management platform</h1>
+<h3 align="center">Completed incident response documentation and remediation review within the SOC case management platform</h3>
 
 <p align="center">
     <img src="image6.png">
