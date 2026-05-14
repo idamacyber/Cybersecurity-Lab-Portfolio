@@ -96,7 +96,7 @@ This was a confirmed phishing attack containing malicious infrastructure. The em
 <p align="center">
     <img src="image6.png">
 </p>
-All screenshots and explanations for this project are documented here:
+All screenshots are here:
 
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1BySPfyanX09Gg6k2cg3_04NkEL7L4vCUM8ozd9aG_r4/edit?usp=sharing)
 
