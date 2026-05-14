@@ -27,9 +27,34 @@ Understand encryption concepts and how data is protected using cryptographic tec
 - Cryptographic algorithms
 - Lab environment (Gomycode)
 
-### 📊 Evidence & Documentation
+### 📊 Evidence 
 
-All screenshots and explanations for this module are documented here:
+<h3 align="center">This screenshot shows the initial launch of OWASP ZAP (Zed Attack Proxy), a leading open-source web application security scanner</h3>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h3 align="center">This image displays the XAMPP Control Panel managing the local web server environment</h3>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h3 align="center">A view of the DVWA homepage hosted on localhost, used as the primary target for security exercises</h3>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h3 align="center">This screenshot captures the results of an Automated Scan performed by OWASP ZAP against the DVWA target.</h3>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+
+All screenshots are here:
 
 🔗 [Google Slides – Module X](https://docs.google.com/presentation/d/1KKvLXd-_aLdZBwTUWuX_Wr0wxsYMz-Zllpsa_R20hKY/edit?usp=sharing)
 
