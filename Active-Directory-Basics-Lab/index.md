@@ -65,6 +65,8 @@ The knowledge gained from this lab is valuable for:
 - Threat Detection
 - Incident Response
 - Blue Team Operations
+- 
+### 📊 Evidence 
 
 <h1 align="center">Active Directory Configuration</h1>
 
