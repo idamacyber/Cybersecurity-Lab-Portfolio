@@ -46,7 +46,39 @@ Rather than only completing labs, I approach each room with an **analyst mindset
 * Understanding potential impact on systems and users
 * Thinking about detection, monitoring, and response strategies
 
-* All screenshots and explanations for this module are documented here:
+### 📊 Evidence 
+
+<h1 align="center">AI Security Path Ticketing Event</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">Completed TryHackMe room covering AI and machine learning security threats</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">TryHackMe Prompt Engineering room demonstrating how large language models process prompts and generate responses</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Completed AI Models & Data learning module focused on the relationship between training data, machine learning models, and AI security</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h1 align="center">Progress within the AI Forensics room focused on AI-assisted digital forensics and incident response (DFIR)</h1>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+* All screenshots are here:
 
 🔗 [Google Slides – Module X](https://docs.google.com/presentation/d/163aeTisaHZ3hMHgELs4fcBOyIkgKXXdQA6_gYVwtcUY/edit?usp=sharing)
 
@@ -59,10 +91,8 @@ AI security is a rapidly evolving field. This repository will continue to be upd
 * Build hands-on labs (e.g., SIEM integration with AI threats)
 * Expand into detection engineering and incident response
 
----
 
 ## 📌 Note
 
 This repository is part of my broader cybersecurity portfolio, demonstrating my transition from foundational learning to applying **real-world security thinking**.
 
----
