@@ -38,7 +38,25 @@ Detected NXDOMAIN responses ("No such name")
 
 Demonstrated DNS failure analysis capability
 
-## 📊 Documentation
+### 📊 Evidence 
+
+<h1 align="center">This image captures a live packet stream in Wireshark, highlighting the transition between different transport and application layer protocols</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">DNS Query and Response Mapping</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">This image demonstrates the use of advanced Wireshark display filters to identify network anomalies or resolution failures.</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
 
 🔗 **Presentation Slides:**  
 [Click here to view the full analysis report](https://docs.google.com/presentation/d/1xwrVbhw8hYEagOrL9yxzuhi4E-vTRG4RZMrsXJ4T-f8/edit?usp=sharing)
