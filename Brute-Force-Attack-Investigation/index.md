@@ -46,7 +46,7 @@ The objective was to determine:
 
 ⚠️ Important:
 
-> A clean reputation does NOT mean the activity is safe
+ A clean reputation does NOT mean the activity is safe
 
 📌 Attackers often use:
 
