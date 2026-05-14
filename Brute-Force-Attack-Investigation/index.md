@@ -157,8 +157,47 @@ This project follows a real-world SOC investigation lifecycle:
 
 * LetsDefend – SOC Simulation
 * VirusTotal – Threat Intelligence
+
+### 📊 Evidence 
+
+<h1 align="center">Reviewed and investigated a high-severity VPN brute-force alert in the SOC monitoring dashboard</h1>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h1 align="center">Analyzed incident details and initiated the incident response playbook for a detected brute-force attack</h1>
+
+<p align="center">
+    <img src="image2.png">
+</p>
+
+<h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact</h1>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h1 align="center">Performed containment procedures to isolate affected systems and reduce attack impact (VirusTotal)</h1>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h1 align="center">Documented lessons learned and preventive recommendations after the incident response process</h1>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h1 align="center">Completed incident response documentation and remediation review within the SOC case management platform</h1>
+
+<p align="center">
+    <img src="image6.png">
+</p>
+
   
-All screenshots and explanations for this project are documented here:
+All screenshots are here:
 
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1f0LSHZmV_8tUpTtAJPlObI7YMWAEzJVZaGwQxYu6KrU/edit?usp=sharing)
 
