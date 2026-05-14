@@ -48,31 +48,31 @@ Rather than only completing labs, I approach each room with an **analyst mindset
 
 ### 📊 Evidence 
 
-<h1 align="center">AI Security Path Ticketing Event</h1>
+<h3 align="center">AI Security Path Ticketing Event</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h1 align="center">Completed TryHackMe room covering AI and machine learning security threats</h1>
+<h3 align="center">Completed TryHackMe room covering AI and machine learning security threats</h3>
 
 <p align="center">
     <img src="image2.png">
 </p>
 
-<h1 align="center">TryHackMe Prompt Engineering room demonstrating how large language models process prompts and generate responses</h1>
+<h3 align="center">TryHackMe Prompt Engineering room demonstrating how large language models process prompts and generate responses</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h1 align="center">Completed AI Models & Data learning module focused on the relationship between training data, machine learning models, and AI security</h1>
+<h3 align="center">Completed AI Models & Data learning module focused on the relationship between training data, machine learning models, and AI security</h3>
 
 <p align="center">
     <img src="image4.png">
 </p>
 
-<h1 align="center">Progress within the AI Forensics room focused on AI-assisted digital forensics and incident response (DFIR)</h1>
+<h3 align="center">Progress within the AI Forensics room focused on AI-assisted digital forensics and incident response (DFIR)</h3>
 
 <p align="center">
     <img src="image5.png">
