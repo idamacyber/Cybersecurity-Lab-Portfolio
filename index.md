@@ -14,7 +14,7 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 🔗[View Project](./Active-Directory-Basics-Lab/)
 
 ### ✅SOC Ticketing & Incident Response Workflow
-🔗[View Project](./SOC-Ticketing-&-Incident-Response-Workflow/)
+## 🔗[View Project](./SOC-Ticketing-&-Incident-Response-Workflow/)
 
 ### ✅ Azure Sentinel SIEM Lab
 🔗[View Project](./Azure-Sentinel-SIEM/)
