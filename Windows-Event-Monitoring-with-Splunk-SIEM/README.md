@@ -1,0 +1,160 @@
+# 📌 Windows Event Monitoring & Threat Detection Using Splunk SIEM
+
+Splunk Enterprise was installed and configured locally on a Windows machine.
+
+The following tasks were completed during deployment:
+
+- Installed Splunk Enterprise
+- Configured administrator account
+- Accessed Splunk Web Interface
+- Added Windows Event Logs as data sources
+- Configured log ingestion settings
+- Verified successful event ingestion
+- Performed event analysis using SPL queries
+
+Windows Event Logs were configured using:
+
+Settings → Add Data → Monitor → Local Event Logs
+
+# 📊 Log Ingestion Verification
+
+After configuring the data source, log ingestion was verified using the following SPL query:
+
+index=windows
+
+This confirmed that Windows logs were successfully indexed and searchable within Splunk.
+
+The ingested telemetry included:
+
+- Authentication events
+- Security-related activity
+- System events
+- Host information
+- Event timestamps
+
+
+# 🚨 Detection Engineering & Security Monitoring
+
+Several SPL queries were created to identify potentially suspicious authentication-related activity within the Windows environment.
+
+## ❌ Failed Login Detection
+
+index=windows EventCode=4625
+
+
+### Purpose
+
+Detects failed authentication attempts that may indicate:
+
+- Brute-force attacks
+- Password spraying attempts
+- Unauthorized access attempts
+- Invalid credential usage
+
+---
+
+## ✅ Successful Login Detection
+
+index=windows EventCode=4624
+
+### Purpose
+
+Identifies successful user logins and helps analysts:
+
+- Track user activity
+- Verify account access
+- Investigate suspicious login patterns
+- Correlate successful access after failed attempts
+
+
+## 🔒 Account Lockout Detection
+
+index=windows EventCode=4740
+
+### Purpose
+
+Detects locked user accounts that may indicate:
+
+- Password brute-force activity
+- Repeated invalid login attempts
+- Misconfigured services using outdated credentials
+
+
+## 👤 New User Account Creation
+
+index=windows EventCode=4720
+
+### Purpose
+
+Identifies newly created user accounts which may indicate:
+
+- Unauthorized account creation
+- Privilege escalation attempts
+- Persistence mechanisms
+- Administrative misuse
+
+
+This project demonstrated how SIEM platforms provide visibility into endpoint activity and support security investigations through centralized log analysis.
+
+
+# 🛠️ Skills Demonstrated
+
+- SIEM deployment and configuration
+- Windows Event Log ingestion
+- SPL query development
+- Security event analysis
+- Threat detection fundamentals
+- Authentication monitoring
+- Log analysis and investigation
+- SOC monitoring workflow
+
+
+### 📊 Evidence 
+
+<h3 align="center">This image shows the creation of administrative credentials during the Splunk Enterprise installation process</h3>
+
+<p align="center">
+    <img src="image1.png">
+</p>
+
+<h3 align="center">A view of the Splunk Enterprise home dashboard upon initial login.</h3>
+
+<p align="center">
+    <img src="image2.svg">
+</p>
+
+<h3 align="center">This screenshot captures the setup of the Splunk Universal Forwarder, a critical component for sending data from remote endpoints to the central indexer</h3>
+
+<p align="center">
+    <img src="image3.png">
+</p>
+
+<h3 align="center">This view outlines the primary methods for ingesting data into the Splunk platform.</h3>
+
+<p align="center">
+    <img src="image4.png">
+</p>
+
+<h3 align="center">This image illustrates the selection of specific log sources for monitoring on a local Windows machine.</h3>
+
+<p align="center">
+    <img src="image5.png">
+</p>
+
+<h3 align="center">A demonstration of running a search query within Splunk to analyze ingested Windows logs</h3>
+
+<p align="center">
+    <img src="image6.png">
+</p>
+
+
+All screenshots are here:
+
+🔗 [Google Slides ](https://docs.google.com/presentation/d/1dA2qaCVj_mEvSgb1v2BjULstgeQHIxDoC130sKnJhPk/edit?usp=sharing)
+
+
+# ✅ Conclusion
+
+This project successfully demonstrated the deployment and configuration of Splunk Enterprise for centralized Windows Event Log monitoring in a SOC-style lab environment.
+
+By ingesting and analyzing Windows Security and System logs, the lab provided hands-on experience with SIEM operations, authentication monitoring, and basic threat detection workflows commonly used in real-world Security Operations Centers (SOCs).
