@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="image.png" width="500">
+</p>
 # Idama Victory Othuke
 
 Aspiring SOC Analyst | Blue Team |Vulnerability Assessment  
