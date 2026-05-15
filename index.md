@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="image.png" width="500">
+  <img src="image.png">
 </p>
 # Idama Victory Othuke
 
