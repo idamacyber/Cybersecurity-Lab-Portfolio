@@ -60,7 +60,7 @@ Created a phishing awareness email template containing:
 - HTML formatting
 
 ### Sample Template
-html
+```html
 <h2>Security Awareness Training</h2>
 
 <p>Your account requires verification.</p>
@@ -68,7 +68,7 @@ html
 <a href="{{.URL}}">
 Click here to verify your account
 </a>
-
+```
 
 ## 3️⃣ Landing Page Development
 Built a custom phishing landing page with:
@@ -78,7 +78,7 @@ Built a custom phishing landing page with:
 - Redirect configuration
 
 ### Landing Page HTML
-html
+```html
 <html>
 <head></head>
 <body>
@@ -95,6 +95,9 @@ html
 
 </form>
 
+</body>
+</html>
+```
 
 
 ## 5️⃣ Credential Capture & Tracking
