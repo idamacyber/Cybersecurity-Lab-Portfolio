@@ -100,7 +100,7 @@ Built a custom phishing landing page with:
 ```
 
 
-## 5️⃣ Credential Capture & Tracking
+## 4️⃣ Credential Capture & Tracking
 Successfully simulated:
 - Email delivery
 - Email open events
