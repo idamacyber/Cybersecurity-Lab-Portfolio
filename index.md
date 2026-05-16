@@ -19,6 +19,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ Azure Sentinel SIEM Lab
 🔗[View Project](./Azure-Sentinel-SIEM/)
 
+### ✅ Phishing Awareness Lab with Gophish
+🔗[View Project](./Phishing-Awareness-Lab-with-Gophish/)
+
 ### ✅ Phishing-Email-Analysis
 🔗[View Project](./Phishing-Email-Analysis/)
 
