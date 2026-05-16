@@ -161,7 +161,7 @@ It also highlights the importance of:
 </h3>
 
 <p align="center">
-    <img src="image3.png">
+    <img src="image41.png">
 </p>
 
 <h3 align="center">A phishing email template was created to simulate a security awareness email requesting account verification</h3>
