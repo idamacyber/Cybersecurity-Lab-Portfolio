@@ -94,7 +94,7 @@ Successfully completed the Junior Security Analyst Intro room by analyzing suspi
 
 ### 📊 Evidence & of Security Information and Event Management (SIEM)
 
-<h3 align="center">Room completion overview/h3>
+<h3 align="center">Room completion overview</h3>
 
 <p align="center">
     <img src="image11.png">
@@ -129,6 +129,7 @@ Successfully completed the Junior Security Analyst Intro room by analyzing suspi
 <p align="center">
     <img src="image66.png">
 </p>
+
 All screenshots arae here:
 
 🔗 [Google Slides](https://docs.google.com/presentation/d/13TIrvURyyss5FUqHMBhnYUA0HERyD5rFDtSKCvpJg-c/edit?usp=sharing)
