@@ -35,6 +35,9 @@ Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel,
 ### ✅ Windows Event Monitoring with Splunk SIEM
 🔗[View Project](./Windows-Event-Monitoring-with-Splunk-SIEM/)
 
+### ✅ Windows Firewall Configuration Lab
+🔗[View Project](./Windows-Firewall-Configuration-Lab/)
+
 ### ✅ TryHackMe Blue Team Labs
  🔗[View TryHackMe Portfolio](./TryHackMe-Blue-Team-Labs/)
  
