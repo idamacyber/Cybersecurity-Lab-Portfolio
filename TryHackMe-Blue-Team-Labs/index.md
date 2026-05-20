@@ -38,7 +38,7 @@ Successfully completed the TryHackMe Malware Classification room and correctly i
 
 ### 📊 Evidence & of Malware Classification
 
-<h3 align="center">Room completion overview/h3>
+<h3 align="center">Room completion overview</h3>
 
 <p align="center">
     <img src="image1.png">
@@ -94,7 +94,7 @@ Successfully completed the Junior Security Analyst Intro room by analyzing suspi
 
 ### 📊 Evidence & of Security Information and Event Management (SIEM)
 
-<h3 align="center">Room completion overview/h3>
+<h3 align="center">Room completion overview</h3>
 
 <p align="center">
     <img src="image11.png">
@@ -176,7 +176,7 @@ Successfully completed the SOC Simulator exercises by investigating security ale
 
 ### 📊 Evidence
 
-<h3 align="center">SOC Simulator dashboard overview/h3>
+<h3 align="center">SOC Simulator dashboard overview</h3>
 
 <p align="center">
     <img src="image111.png">
@@ -255,7 +255,7 @@ Successfully completed the Threat Hunting Simulator by analyzing suspicious acti
 
 ### 📊 Evidence
 
-<h3 align="center">Threat Hunting Simulator overview/h3>
+<h3 align="center">Threat Hunting Simulator overview</h3>
 
 <p align="center">
     <img src="image1111.png">
