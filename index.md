@@ -1,157 +1,199 @@
+## 📌 Cloud-Based SIEM Implementation Using Microsoft Sentinel
+
+##🔎 Project Overview
+
+This project demonstrates the deployment and configuration of a cloud-based Security Information and Event Management (SIEM) solution using Microsoft Sentinel in Microsoft Azure.
+
+The objective was to:
+
+- Deploy Azure resources
+
+- Enable log ingestion
+
+- Create detection rules
+
+- Simulate suspicious activity
+
+- Generate and investigate security incidents
+
+
+## 🏗️ Environment Setup
+
+- Microsoft Azure subscription
+
+- Resource Group (SOC-LAB-RG)
+
+- Log Analytics Workspace
+
+- Microsoft Sentinel enabled
+
+- Azure Activity logs connected
+
+
+## 📊 Log Ingestion Verification
+
+Used KQL query to confirm log collection:
+
+AzureActivity
+| take 5
+
+Verified that Azure Activity logs were successfully ingested into the Log Analytics Workspace.
+
+
+## 🚨 Detection Engineering
+
+Created a scheduled analytics rule:
+
+- Rule Name: Suspicious Azure Resource Creation Activity
+
+- Data Source: AzureActivity
+
+- Detection Logic: OperationName contains "write"
+
+- Severity: Medium
+
+- MITRE ATT&CK mapping applied
+
+## 🧪 Simulated Suspicious Activity
+
+Created a new Azure Resource Group to simulate administrative activity and trigger detection.
+
+
+## 🔔 Incident Generation
+
+The analytics rule successfully generated an incident in Microsoft Sentinel.
+
+
+## 🔍 Incident Investigation
+
+Reviewed:
+
+- Alert timeline
+- Detection details
+- Associated entities
+- Incident status
+- Demonstrated end-to-end detection and investigation workflow.
+
+
+## 🛠️ Tools & Technologies
+
+- Microsoft Azure
+
+- Microsoft Sentinel
+
+- Kusto Query Language (KQL)
+
+
+## 🎯 Key Skills Demonstrated
+
+- Cloud SIEM deployment
+
+- Log ingestion configuration
+
+- Detection rule creation
+
+- Incident investigation
+
+- Threat monitoring in cloud environments
+
+### 📊 Evidence 
+
+<h3 align="center">In this step, I created a Resource Group in Microsoft Azure called SOC-Lab-RG.
+</h3>
+
 <p align="center">
-  <img src="image44.png">
+    <img src="image1.png">
 </p>
 
-### Idama Victory Othuke
+<h3 align="center">After creating the Resource Group, I verified that it was successfully deployed.
+</h3>
 
-Aspiring SOC Analyst | Blue Team |Vulnerability Assessment  
+<p align="center">
+    <img src="image2.png">
+</p>
 
-Hands-on experience in Cloud-Based SIEM Implementation Using Microsoft Sentinel, vulnerability assessment, web application testing, and network traffic analysis.
+<h3 align="center">After setting up the Resource Group, the next step was creating a Log Analytics Workspace.
+</h3>
 
+<p align="center">
+    <img src="image3.png">
+</p>
 
-# 🔥 Featured Projects
+<h3 align="center">After creating the Log Analytics Workspace, the next step was enabling Microsoft Sentinel.
+</h3>
 
-### ✅Active Directory Basics Lab
-🔗[View Project](./Active-Directory-Basics-Lab/)
+<p align="center">
+    <img src="image4.png">
+</p>
 
-### ✅SOC Ticketing & Incident Response Workflow
-🔗[View Project](./SOC-Ticketing-&-Incident-Response-Workflow/)
+<h3 align="center">After enabling Microsoft Sentinel, the next step was exploring the Content Hub.
+</h3>
 
-### ✅ Azure Sentinel SIEM Lab
-🔗[View Project](./Azure-Sentinel-SIEM/)
+<p align="center">
+    <img src="image5.png">
+</p>
 
-### ✅ Phishing Awareness Lab with Gophish
-🔗[View Project](./Phishing-Awareness-Lab-with-Gophish/)
+<h3 align="center">After accessing the Content Hub, I installed the Azure Activity solution.
+</h3>
 
-### ✅ Phishing-Email-Analysis
-🔗[View Project](./Phishing-Email-Analysis/)
+<p align="center">
+    <img src="image6.png">
+</p>
 
-### ✅ Brute Force Attack Investigation
-🔗[View Project](./Brute-Force-Attack-Investigation/)
+<h3 align="center">After installing the Azure Activity solution, I configured an Azure Policy to ensure that activity logs are streamed to the Log Analytics Workspace.</h3>
 
-### ✅ EDR Investigation Lab
-🔗[View Project](./EDR-Investigation/)
+<p align="center">
+    <img src="image7.png">
+</p>
 
-### ✅ Windows Event Monitoring with Splunk SIEM
-🔗[View Project](./Windows-Event-Monitoring-with-Splunk-SIEM/)
+<h3 align="center">After enabling Microsoft Sentinel, I navigated to the Analytics section to manage detection rules.
+</h3>
 
-### ✅ Windows Firewall Configuration Lab
-🔗[View Project](./Windows-Firewall-Configuration-Lab/)
+<p align="center">
+    <img src="image8.png">
+</p>
 
-### ✅ TryHackMe Blue Team Labs
- 🔗[View TryHackMe Portfolio](./TryHackMe-Blue-Team-Labs/)
- 
-### ✅ TryHackMe AI Security Labs
- 🔗[View TryHackMe AI Security Lab](./Tryhackme-AI-Security/)
- 
-### ✅ Race Condition Exploitation 
-🔗 [View Project](./Race-Condition-Exploitation/)
+<h3 align="center">After assigning the Azure Policy, I verified that logs were successfully ingested into the Log Analytics Workspace.
+</h3>
 
-### ✅ Wireshark Traffic Analysis 
-🔗 [View Project](./Wireshark-Traffic-Analysis/)
+<p align="center">
+    <img src="image9.png">
+</p>
 
-### ✅ Vulnerability Assessment Nessus
-🔗 [View Project](./Vulnerability-Assessment-Nessus/)
+<h3 align="center">After confirming successful log ingestion, I configured a scheduled analytics rule in Microsoft Sentinel to monitor suspicious Azure resource creation activity</h3>
 
-### ✅ Vulnerability Assessment Nmap
-🔗[View Project](./Vulnerability-Assessment-Nmap/)
+<p align="center">
+    <img src="image10.png">
+</p>
 
-### ✅ OWASP-ZAP-Vulnerability-Assessment-Project
-🔗[View Project](./OWASP-ZAP-Vulnerability-Assessment-Project/)
+<h3 align="center">To test the detection capability of Microsoft Sentinel, I simulated administrative activity by creating a new resource group in Azure.</h3>
 
+<p align="center">
+    <img src="image11.png">
+</p>
 
-# 🛠 Technical Skills
+<h3 align="center">After creating the analytics rule and simulating resource creation activity, Microsoft Sentinel automatically generated an incident.</h3>
 
-## 🖥 Operating Systems
-- Kali Linux
-- Debian Linux
-- Windows
-- Windows Server (Active Defense Lab)
+<p align="center">
+    <img src="image12.png">
+</p>
 
-## 🔍 Security Tools
-- Nessus (Vulnerability Scanning)
-- OWASP ZAP (Web Application Security Testing)
-- Burp Suite (Web Proxy & Interception)
-- Wireshark (Network Traffic Analysis)
-- Nmap (Network Discovery & Port Scanning)
-- nslookup (DNS Enumeration)
+<h3 align="center">After the alert was generated, I opened the incident in Microsoft Sentinel to investigate further</h3>
 
-## 📊 SIEM & Monitoring
-- SIEM Fundamentals (TryHackMe Labs)
-- Log Analysis & Event Correlation Basics
+<p align="center">
+    <img src="image13.png">
+</p>
 
-## 🌐 Networking & Protocols
-- TCP/UDP/IP
-- DNS
-- HTTP/HTTPS/FTP/SSH/TLS/SMTP/SMTPS
-- Packet Analysis
-- Basic Firewall Concepts
+## Investigation Summary
 
-## 🧪 Lab Environments
-- DVWA (Damn Vulnerable Web Application)
-- Local Virtual Lab Setup
-- TryHackMe Blue Team Labs
+After creating a custom analytics rule and simulating Azure resource creation activity, Microsoft Sentinel successfully generated an incident alert titled:
 
-## 🔐 Security Concepts
-- Vulnerability Assessment
-- Web Application Security
-- Race Condition Exploitation
-- CVSS Scoring
-- Risk Identification
-- Access Control Principles
-- Basic Cryptography
+**"Suspicious Azure Resource Creation Activity"**
 
-## 🧠 Defensive Security Focus
-- Blue Team Mindset
-- Threat Detection Basics
-- Security Monitoring Fundamentals
+### Investigation Findings
+- The alert was triggered immediately after the simulated resource creation activity.
+- Activity logs confirmed that a new Azure resource was created within the monitored environment.
+- The analytics rule functioned as intended and correctly detected the activity.
 
-
-# 🔥Introduction-to-Cybersecurity-Learning-Process @Gomycode
-
-# 📚 Structured Training & Checkpoints
-
-Comprehensive cybersecurity training covering foundational and defensive security concepts.
-
-Detailed module summaries and practical evidence:
-
-### ✅ Security Ethics Fundamentals
-🔗 [View Project](./Security-Ethics-Fundamentals/)
-
-### ✅ Network Fundamentals
-🔗 [View Project](./Network-Fundamentals/)
-
-### ✅ Active Defense Lab  
-🔗 [View Project](./Active-Defense-Lab/)
-
-### ✅ Threats Vulnerabilities Architecture
-🔗 [View Project](./Threats-Vulnerabilities-Architecture/)
-
-### ✅ Secure Architecture Design  
-🔗 [View Project](./Secure-Architecture-Design/)
-
-### ✅ Cryptography Secure Implementation 
-🔗 [View Project](./Cryptography-Secure-Implementation/)
-
-### ✅ Security Capstone Project
-🔗[View Project](./Security-Capstone-Project/)
-
-# 🎯 Career Objective
-
-Seeking an entry-level SOC Analyst role where I can apply hands-on skills in vulnerability assessment, threat detection, and network analysis while continuously growing in defensive cybersecurity.
-
-## 📬 Contact
-- **Email Address:** idamavothuke@gmail.com
-- **GitHub:** https://github.com/idamacyber
-- [Linkedin](/https://www.linkedin.com/in/idama-victory/)
-
-
----
-
-## 📌 Note
-
-This repository documents my structured cybersecurity journey, including practical labs, vulnerability assessments, and defensive security exercises.
-
-All testing was performed in controlled lab environments for educational purposes only.
-
----
+### Conclusion
+This incident was classified as a **True Positive** because the alert accurately matched the simulated activity performed during the lab exercise. The detection demonstrated the effectiveness of Microsoft Sentinel analytics rules in identifying potentially suspicious cloud resource creation events.
