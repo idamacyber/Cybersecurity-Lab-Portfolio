@@ -1,150 +1,108 @@
-# 📌 Windows Event Monitoring & Threat Detection Using Splunk SIEM
+# 🛡️ Windows Event Monitoring with Splunk SIEM
 
-Splunk Enterprise was installed and configured locally on a Windows machine.
+## 📌 Project Overview
+This project demonstrates the implementation of a basic Security Information and Event Management (SIEM) environment using Splunk Enterprise for Windows Event Log monitoring.
 
-The following tasks were completed during deployment:
+The lab focuses on configuring Splunk Enterprise, installing the Splunk Universal Forwarder, ingesting Windows Security and System logs, and performing log analysis through Splunk search queries.
 
-- Installed Splunk Enterprise
-- Configured administrator account
-- Accessed Splunk Web Interface
-- Added Windows Event Logs as data sources
-- Configured log ingestion settings
-- Verified successful event ingestion
-- Performed event analysis using SPL queries
-
-Windows Event Logs were configured using:
-
-Settings → Add Data → Monitor → Local Event Logs
-
-# 📊 Log Ingestion Verification
-
-After configuring the data source, log ingestion was verified using the following SPL query:
-
-index=windows
-
-This confirmed that Windows logs were successfully indexed and searchable within Splunk.
-
-The ingested telemetry included:
-
-- Authentication events
-- Security-related activity
-- System events
-- Host information
-- Event timestamps
-
-
-# 🚨 Detection Engineering & Security Monitoring
-
-Several SPL queries were created to identify potentially suspicious authentication-related activity within the Windows environment.
-
-## ❌ Failed Login Detection
-
-index=windows EventCode=4625
-
-
-### Purpose
-
-Detects failed authentication attempts that may indicate:
-
-- Brute-force attacks
-- Password spraying attempts
-- Unauthorized access attempts
-- Invalid credential usage
+The goal of this project was to simulate how SOC analysts monitor endpoint activity, collect logs, and investigate security-related events within a centralized SIEM platform.
 
 ---
 
-## ✅ Successful Login Detection
+# 🎯 Objectives
+- Install and configure Splunk Enterprise
+- Configure the Splunk Universal Forwarder
+- Ingest Windows Event Logs into Splunk
+- Monitor Security and System event logs
+- Perform log analysis using Splunk queries
+- Validate successful event ingestion and SIEM visibility
 
-index=windows EventCode=4624
+---
 
-### Purpose
+# 🧰 Tools & Technologies Used
+- Splunk Enterprise
+- Splunk Universal Forwarder
+- Windows 11
+- Windows Event Viewer
+- SIEM Monitoring
 
-Identifies successful user logins and helps analysts:
+---
 
-- Track user activity
-- Verify account access
-- Investigate suspicious login patterns
-- Correlate successful access after failed attempts
+# 🏗️ Lab Environment
 
+| Component | Description |
+|---|---|
+| Operating System | Windows 11 |
+| SIEM Platform | Splunk Enterprise |
+| Log Source | Windows Event Logs |
+| Data Collection | Splunk Universal Forwarder |
+| Monitored Logs | Security & System Logs |
 
-## 🔒 Account Lockout Detection
-
-index=windows EventCode=4740
-
-### Purpose
-
-Detects locked user accounts that may indicate:
-
-- Password brute-force activity
-- Repeated invalid login attempts
-- Misconfigured services using outdated credentials
-
-
-## 👤 New User Account Creation
-
-index=windows EventCode=4720
-
-### Purpose
-
-Identifies newly created user accounts which may indicate:
-
-- Unauthorized account creation
-- Privilege escalation attempts
-- Persistence mechanisms
-- Administrative misuse
-
-
-This project demonstrated how SIEM platforms provide visibility into endpoint activity and support security investigations through centralized log analysis.
-
-
-# 🛠️ Skills Demonstrated
-
-- SIEM deployment and configuration
-- Windows Event Log ingestion
-- SPL query development
-- Security event analysis
-- Threat detection fundamentals
-- Authentication monitoring
-- Log analysis and investigation
-- SOC monitoring workflow
+---
+# 📚 Skills Demonstrated
+- SIEM Configuration
+- Windows Event Log Monitoring
+- Splunk Enterprise Administration
+- Log Ingestion & Analysis
+- Security Event Investigation
+- SOC Monitoring Concepts
+- Event Correlation Basics
 
 
 ### 📊 Evidence 
 
-<h3 align="center">This image shows the creation of administrative credentials during the Splunk Enterprise installation process</h3>
+<h3 align="center">In this step, I installed Splunk Enterprise on the Windows machine to begin configuring the SIEM environment</h3>
 
 <p align="center">
     <img src="image1.png">
 </p>
 
-<h3 align="center">A view of the Splunk Enterprise home dashboard upon initial login.</h3>
+<h3 align="center">After successfully installing Splunk Enterprise, I accessed the Splunk web interface through the localhost web portal.</h3>
 
 <p align="center">
-    <img src="image2.svg">
+    <img src="image2.png">
 </p>
 
-<h3 align="center">This screenshot captures the setup of the Splunk Universal Forwarder, a critical component for sending data from remote endpoints to the central indexer</h3>
+<h3 align="center">In this step, I configured the Splunk Universal Forwarder to communicate with the Splunk server</h3>
 
 <p align="center">
     <img src="image3.png">
 </p>
 
-<h3 align="center">This view outlines the primary methods for ingesting data into the Splunk platform.</h3>
+<h3 align="center">After installing the Splunk Universal Forwarder, I verified that the SplunkForwarder service was running successfully within Windows Services</h3>
 
 <p align="center">
     <img src="image4.png">
 </p>
 
-<h3 align="center">This image illustrates the selection of specific log sources for monitoring on a local Windows machine.</h3>
+<h3 align="center">At this stage, I began configuring data ingestion in Splunk Enterprise.</h3>
 
 <p align="center">
     <img src="image5.png">
 </p>
 
-<h3 align="center">A demonstration of running a search query within Splunk to analyze ingested Windows logs</h3>
+<h3 align="center">In this step, I selected the Windows Event Log data source from the available input options in Splunk</h3>
 
 <p align="center">
     <img src="image6.png">
+</p>
+
+<h3 align="center">Here, I selected the Security and System event log channels for monitoring and ingestion into Splunk.</h3>
+
+<p align="center">
+    <img src="image7.png">
+</p>
+
+<h3 align="center">Before finalizing the configuration, I reviewed the selected event log settings to ensure the correct log sources and index configuration were applied.</h3>
+
+<p align="center">
+    <img src="image8.png">
+</p>
+
+<h3 align="center">After completing the configuration process, Windows Event Logs were successfully ingested into Splunk Enterprise.</h3>
+
+<p align="center">
+    <img src="image9.png">
 </p>
 
 
@@ -153,8 +111,20 @@ All screenshots are here:
 🔗 [Google Slides ](https://docs.google.com/presentation/d/1dA2qaCVj_mEvSgb1v2BjULstgeQHIxDoC130sKnJhPk/edit?usp=sharing)
 
 
-# ✅ Conclusion
+## Investigation Summary
 
-This project successfully demonstrated the deployment and configuration of Splunk Enterprise for centralized Windows Event Log monitoring in a SOC-style lab environment.
+After configuring log ingestion in Splunk Enterprise, Windows Security Event Logs were successfully collected and indexed within the SIEM environment.
 
-By ingesting and analyzing Windows Security and System logs, the lab provided hands-on experience with SIEM operations, authentication monitoring, and basic threat detection workflows commonly used in real-world Security Operations Centers (SOCs).
+A search query was performed using:
+index="windows"
+
+The results displayed multiple Windows Security Event Logs generated from the local system.
+
+## Findings
+- Security logs were successfully ingested into Splunk Enterprise.
+- The SIEM platform correctly indexed Windows Event Logs from the monitored host.
+- Observed events were identified as normal system and account-related activities generated by the local Windows machine.
+- No indicators of compromise, unauthorized access, or suspicious behavior were identified during the investigation.
+
+## Conclusion
+The observed events were classified as benign activity because the logs originated from legitimate operations performed within the local lab environment. This confirmed that the SIEM configuration and event collection process were functioning successfully.
